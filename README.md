@@ -5,8 +5,12 @@ react-native interface to login to instagram (iOS)
 ## Getting started
 
 1. `npm install react-native-instagram-oauth@latest --save`
-2. Run your project (`Cmd+R`)
-3. Register a new client on instagram itself => https://instagram.com/developer/clients/manage/
+2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
+3. Go to `node_modules` ➜ node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj  and add `RCTLinking.xcodeproj`
+4. In XCode, in the project navigator, select your project. Add `libRCTLinking.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+5. Click `RCTLinking.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../../react-native/React` and `$(SRCROOT)/../../../React` - mark both as `recursive`.
+6. Run your project (`Cmd+R`)
+7. Register a new client on instagram itself => https://instagram.com/developer/clients/manage/
 ![Alt Text](https://github.com/watzak/react-native-instagram-oauth/raw/master/demo.png)
 
 
