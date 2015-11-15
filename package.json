@@ -1,0 +1,32 @@
+{
+  "name": "react-native-instagram-oauth",
+  "version": "0.0.2",
+  "description": "react-native instagram login",
+  "main": "src/RNInstagramOAuth.js",
+  "dependencies": {
+    "react-native": "^0.14.2",
+    "shitty-qs": "^1.0.1"
+  },
+  "devDependencies": {
+    "react-native": "^0.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzak/react-native-instagram-oauth.git"
+  },
+  "keywords": [
+    "react-native",
+    "instagram",
+    "oauth",
+    "login"
+  ],
+  "author": "Klaus Zahiragic <klaus.zahiragic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watzak/react-native-instagram-oauth/issues"
+  },
+  "homepage": "https://github.com/watzak/react-native-instagram-oauth#readme"
+}
