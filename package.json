@@ -1,14 +1,14 @@
 {
   "name": "react-native-instagram-oauth",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "react-native instagram login",
   "main": "src/RNInstagramOAuth.js",
   "dependencies": {
-    "react-native": "^0.14.2",
+    "react-native": "^0.15.0",
     "shitty-qs": "^1.0.1"
   },
   "devDependencies": {
-    "react-native": "^0.14.2"
+    "react-native": "^0.15.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
