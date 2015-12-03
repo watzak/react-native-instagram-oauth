@@ -1,4 +1,4 @@
-# react-native-instagram-share
+# react-native-instagram-oauth
 react-native interface to login to instagram (iOS)
 
 
