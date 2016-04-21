@@ -4,7 +4,6 @@
   "description": "react-native instagram login",
   "main": "src/RNInstagramOAuth.js",
   "dependencies": {
-    "react-native": "^0.15.0",
     "shitty-qs": "^1.0.1"
   },
   "devDependencies": {
